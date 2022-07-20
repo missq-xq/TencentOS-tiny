@@ -26,6 +26,7 @@ void task2_entry(void *arg)
 }
 
 
+
 void application_entry(void *arg)
 {
     tos_task_create(&task1, "task1", task1_entry, NULL, 3, task1_stk, TASK1_STK_SIZE, 0); // Create task1
